@@ -1,0 +1,938 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D06B3FA1F46AEDF0024FD35 /* UserRegisterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D06B3F91F46AEDF0024FD35 /* UserRegisterViewModel.m */; };
+		4D06B3FD1F46AF530024FD35 /* UserRegisterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D06B3FC1F46AF530024FD35 /* UserRegisterModel.m */; };
+		4D06B4011F46BFAC0024FD35 /* UserRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D06B3FF1F46BFAC0024FD35 /* UserRegisterController.m */; };
+		4D06B4021F46BFAC0024FD35 /* UserRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D06B4001F46BFAC0024FD35 /* UserRegisterController.xib */; };
+		4D2066911F3978170092352B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2066901F3978170092352B /* main.m */; };
+		4D20669C1F3978170092352B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D20669B1F3978170092352B /* Assets.xcassets */; };
+		4D20669F1F3978170092352B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D20669D1F3978170092352B /* LaunchScreen.storyboard */; };
+		4D2066AA1F3978170092352B /* SmartHomeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2066A91F3978170092352B /* SmartHomeProjectTests.m */; };
+		4D2066B51F3978170092352B /* SmartHomeProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2066B41F3978170092352B /* SmartHomeProjectUITests.m */; };
+		4D38E3601F490DB400E938DF /* UserHeadPortraitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D38E35F1F490DB400E938DF /* UserHeadPortraitView.m */; };
+		4D38E3621F490DED00E938DF /* UserHeadPortraitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D38E3611F490DED00E938DF /* UserHeadPortraitView.xib */; };
+		4D778E9D1F3FB70D00253D73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D778E9C1F3FB70D00253D73 /* AppDelegate.m */; };
+		4D778EA61F3FB83500253D73 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D778EA41F3FB83500253D73 /* HomePageViewController.m */; };
+		4D778EA71F3FB83500253D73 /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D778EA51F3FB83500253D73 /* HomePageViewController.xib */; };
+		4D778EA91F3FBB4800253D73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D778EA81F3FBB4800253D73 /* Main.storyboard */; };
+		4D778EB11F3FBE1C00253D73 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D778EB01F3FBE1C00253D73 /* TabBarController.m */; };
+		4D778EB41F3FC0CA00253D73 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D778EB31F3FC0CA00253D73 /* BaseNavigationController.m */; };
+		4D778EBD1F3FD19C00253D73 /* MyCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D778EBB1F3FD19C00253D73 /* MyCenterViewController.m */; };
+		4D778EBE1F3FD19C00253D73 /* MyCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D778EBC1F3FD19C00253D73 /* MyCenterViewController.xib */; };
+		4D778EC11F3FD1C700253D73 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D778EC01F3FD1C700253D73 /* BaseViewController.m */; };
+		4D778EC81F3FD7C400253D73 /* SH_AFNetClientTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D778EC71F3FD7C400253D73 /* SH_AFNetClientTool.m */; };
+		4DF338D61F42A05700F05B28 /* test_leyou.cer in Resources */ = {isa = PBXBuildFile; fileRef = 4DF338D51F42A05700F05B28 /* test_leyou.cer */; };
+		8EBCE9F3153656EF032F67B4 /* libPods-SmartHomeProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F38125390698DDCA11E7EC4 /* libPods-SmartHomeProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D2066A61F3978170092352B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2066841F3978170092352B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D20668B1F3978170092352B;
+			remoteInfo = SmartHomeProject;
+		};
+		4D2066B11F3978170092352B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2066841F3978170092352B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D20668B1F3978170092352B;
+			remoteInfo = SmartHomeProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		444538C6E654CD767A874839 /* Pods-SmartHomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHomeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartHomeProject/Pods-SmartHomeProject.release.xcconfig"; sourceTree = "<group>"; };
+		483D71648CA4ED64C47A88C4 /* Pods-SmartHomeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHomeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartHomeProject/Pods-SmartHomeProject.debug.xcconfig"; sourceTree = "<group>"; };
+		4D06B3F81F46AEDF0024FD35 /* UserRegisterViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRegisterViewModel.h; sourceTree = "<group>"; };
+		4D06B3F91F46AEDF0024FD35 /* UserRegisterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRegisterViewModel.m; sourceTree = "<group>"; };
+		4D06B3FB1F46AF530024FD35 /* UserRegisterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRegisterModel.h; sourceTree = "<group>"; };
+		4D06B3FC1F46AF530024FD35 /* UserRegisterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRegisterModel.m; sourceTree = "<group>"; };
+		4D06B3FE1F46BFAC0024FD35 /* UserRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRegisterController.h; sourceTree = "<group>"; };
+		4D06B3FF1F46BFAC0024FD35 /* UserRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRegisterController.m; sourceTree = "<group>"; };
+		4D06B4001F46BFAC0024FD35 /* UserRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserRegisterController.xib; sourceTree = "<group>"; };
+		4D20668C1F3978170092352B /* SmartHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2066901F3978170092352B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D20669B1F3978170092352B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D20669E1F3978170092352B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D2066A01F3978170092352B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2066A51F3978170092352B /* SmartHomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2066A91F3978170092352B /* SmartHomeProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartHomeProjectTests.m; sourceTree = "<group>"; };
+		4D2066AB1F3978170092352B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2066B01F3978170092352B /* SmartHomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartHomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2066B41F3978170092352B /* SmartHomeProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartHomeProjectUITests.m; sourceTree = "<group>"; };
+		4D2066B61F3978170092352B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D38E35D1F4902E200E938DF /* CommonParamaHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonParamaHeader.h; sourceTree = "<group>"; };
+		4D38E35E1F490DB400E938DF /* UserHeadPortraitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserHeadPortraitView.h; sourceTree = "<group>"; };
+		4D38E35F1F490DB400E938DF /* UserHeadPortraitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserHeadPortraitView.m; sourceTree = "<group>"; };
+		4D38E3611F490DED00E938DF /* UserHeadPortraitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserHeadPortraitView.xib; sourceTree = "<group>"; };
+		4D778E9B1F3FB70D00253D73 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D778E9C1F3FB70D00253D73 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D778EA31F3FB83500253D73 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		4D778EA41F3FB83500253D73 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		4D778EA51F3FB83500253D73 /* HomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		4D778EA81F3FBB4800253D73 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4D778EAF1F3FBE1C00253D73 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		4D778EB01F3FBE1C00253D73 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		4D778EB21F3FC0CA00253D73 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		4D778EB31F3FC0CA00253D73 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		4D778EBA1F3FD19C00253D73 /* MyCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCenterViewController.h; sourceTree = "<group>"; };
+		4D778EBB1F3FD19C00253D73 /* MyCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCenterViewController.m; sourceTree = "<group>"; };
+		4D778EBC1F3FD19C00253D73 /* MyCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCenterViewController.xib; sourceTree = "<group>"; };
+		4D778EBF1F3FD1C700253D73 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4D778EC01F3FD1C700253D73 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4D778EC31F3FD2FB00253D73 /* SmartHome_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartHome_Prefix.pch; sourceTree = "<group>"; };
+		4D778EC41F3FD3EA00253D73 /* ClassesHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassesHeader.h; sourceTree = "<group>"; };
+		4D778EC61F3FD7C400253D73 /* SH_AFNetClientTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SH_AFNetClientTool.h; sourceTree = "<group>"; };
+		4D778EC71F3FD7C400253D73 /* SH_AFNetClientTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SH_AFNetClientTool.m; sourceTree = "<group>"; };
+		4DF338D51F42A05700F05B28 /* test_leyou.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = test_leyou.cer; sourceTree = "<group>"; };
+		4DF338D71F42A76500F05B28 /* RequstUrlHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequstUrlHeader.h; sourceTree = "<group>"; };
+		9F38125390698DDCA11E7EC4 /* libPods-SmartHomeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartHomeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D2066891F3978170092352B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBCE9F3153656EF032F67B4 /* libPods-SmartHomeProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2066A21F3978170092352B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2066AD1F3978170092352B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2066831F3978170092352B = {
+			isa = PBXGroup;
+			children = (
+				4D20668E1F3978170092352B /* SmartHomeProject */,
+				4D2066A81F3978170092352B /* SmartHomeProjectTests */,
+				4D2066B31F3978170092352B /* SmartHomeProjectUITests */,
+				4D20668D1F3978170092352B /* Products */,
+				9F30104A5A5375D9E0599476 /* Pods */,
+				8F6F8EC3E567555BE9E4129F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D20668D1F3978170092352B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D20668C1F3978170092352B /* SmartHomeProject.app */,
+				4D2066A51F3978170092352B /* SmartHomeProjectTests.xctest */,
+				4D2066B01F3978170092352B /* SmartHomeProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D20668E1F3978170092352B /* SmartHomeProject */ = {
+			isa = PBXGroup;
+			children = (
+				4D778E861F3FB42200253D73 /* Classes */,
+				4D20668F1F3978170092352B /* Supporting Files */,
+			);
+			path = SmartHomeProject;
+			sourceTree = "<group>";
+		};
+		4D20668F1F3978170092352B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF338D51F42A05700F05B28 /* test_leyou.cer */,
+				4D20669B1F3978170092352B /* Assets.xcassets */,
+				4D20669D1F3978170092352B /* LaunchScreen.storyboard */,
+				4D778EA81F3FBB4800253D73 /* Main.storyboard */,
+				4D2066A01F3978170092352B /* Info.plist */,
+				4D2066901F3978170092352B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D2066A81F3978170092352B /* SmartHomeProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D2066A91F3978170092352B /* SmartHomeProjectTests.m */,
+				4D2066AB1F3978170092352B /* Info.plist */,
+			);
+			path = SmartHomeProjectTests;
+			sourceTree = "<group>";
+		};
+		4D2066B31F3978170092352B /* SmartHomeProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D2066B41F3978170092352B /* SmartHomeProjectUITests.m */,
+				4D2066B61F3978170092352B /* Info.plist */,
+			);
+			path = SmartHomeProjectUITests;
+			sourceTree = "<group>";
+		};
+		4D778E861F3FB42200253D73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D778EC21F3FD26100253D73 /* Config */,
+				4D778E8A1F3FB4D500253D73 /* Tools */,
+				4D778E891F3FB4BF00253D73 /* Categorys */,
+				4D778E881F3FB48300253D73 /* ThreeLibs */,
+				4D778E871F3FB46300253D73 /* Modules */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4D778E871F3FB46300253D73 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4D778EB51F3FD11700253D73 /* MyCenterModule */,
+				4D778E9E1F3FB79200253D73 /* HomePageModule */,
+				4D778E8B1F3FB54500253D73 /* BaseModule */,
+			);
+			name = Modules;
+			path = Classes/Modules;
+			sourceTree = "<group>";
+		};
+		4D778E881F3FB48300253D73 /* ThreeLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThreeLibs;
+			path = Classes/ThreeLibs;
+			sourceTree = "<group>";
+		};
+		4D778E891F3FB4BF00253D73 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categorys;
+			path = Classes/Categorys;
+			sourceTree = "<group>";
+		};
+		4D778E8A1F3FB4D500253D73 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4D778EC51F3FD70400253D73 /* NetRequst */,
+			);
+			name = Tools;
+			path = Classes/Tools;
+			sourceTree = "<group>";
+		};
+		4D778E8B1F3FB54500253D73 /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				4D778E8F1F3FB5B800253D73 /* MainModule */,
+				4D778E901F3FB5CA00253D73 /* Register */,
+				4D778E8E1F3FB59800253D73 /* Login */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		4D778E8E1F3FB59800253D73 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4D778E9A1F3FB6D400253D73 /* ViewModels */,
+				4D778E951F3FB67400253D73 /* Models */,
+				4D778E941F3FB65E00253D73 /* Views */,
+				4D778E931F3FB63E00253D73 /* Controllers */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		4D778E8F1F3FB5B800253D73 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				4D778E9B1F3FB70D00253D73 /* AppDelegate.h */,
+				4D778E9C1F3FB70D00253D73 /* AppDelegate.m */,
+				4D778EAF1F3FBE1C00253D73 /* TabBarController.h */,
+				4D778EB01F3FBE1C00253D73 /* TabBarController.m */,
+				4D778EB21F3FC0CA00253D73 /* BaseNavigationController.h */,
+				4D778EB31F3FC0CA00253D73 /* BaseNavigationController.m */,
+				4D778EBF1F3FD1C700253D73 /* BaseViewController.h */,
+				4D778EC01F3FD1C700253D73 /* BaseViewController.m */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		4D778E901F3FB5CA00253D73 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				4D778E991F3FB6C100253D73 /* ViewModels */,
+				4D778E981F3FB6AD00253D73 /* Models */,
+				4D778E971F3FB69D00253D73 /* Views */,
+				4D778E961F3FB68800253D73 /* Controllers */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		4D778E931F3FB63E00253D73 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			path = Login/Controllers;
+			sourceTree = "<group>";
+		};
+		4D778E941F3FB65E00253D73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = Login/Views;
+			sourceTree = "<group>";
+		};
+		4D778E951F3FB67400253D73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = Login/Models;
+			sourceTree = "<group>";
+		};
+		4D778E961F3FB68800253D73 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D06B3FE1F46BFAC0024FD35 /* UserRegisterController.h */,
+				4D06B3FF1F46BFAC0024FD35 /* UserRegisterController.m */,
+				4D06B4001F46BFAC0024FD35 /* UserRegisterController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D778E971F3FB69D00253D73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D778E981F3FB6AD00253D73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D06B3FB1F46AF530024FD35 /* UserRegisterModel.h */,
+				4D06B3FC1F46AF530024FD35 /* UserRegisterModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D778E991F3FB6C100253D73 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4D06B3F81F46AEDF0024FD35 /* UserRegisterViewModel.h */,
+				4D06B3F91F46AEDF0024FD35 /* UserRegisterViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D778E9A1F3FB6D400253D73 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			path = Login/ViewModels;
+			sourceTree = "<group>";
+		};
+		4D778E9E1F3FB79200253D73 /* HomePageModule */ = {
+			isa = PBXGroup;
+			children = (
+				4D778EA21F3FB7F200253D73 /* ViewModels */,
+				4D778EA11F3FB7E300253D73 /* Models */,
+				4D778EA01F3FB7D400253D73 /* Views */,
+				4D778E9F1F3FB7C100253D73 /* Controllers */,
+			);
+			path = HomePageModule;
+			sourceTree = "<group>";
+		};
+		4D778E9F1F3FB7C100253D73 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D778EA31F3FB83500253D73 /* HomePageViewController.h */,
+				4D778EA41F3FB83500253D73 /* HomePageViewController.m */,
+				4D778EA51F3FB83500253D73 /* HomePageViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D778EA01F3FB7D400253D73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D778EA11F3FB7E300253D73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D778EA21F3FB7F200253D73 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D778EB51F3FD11700253D73 /* MyCenterModule */ = {
+			isa = PBXGroup;
+			children = (
+				4D778EB91F3FD17100253D73 /* ViewModels */,
+				4D778EB81F3FD15E00253D73 /* Models */,
+				4D778EB71F3FD14E00253D73 /* Views */,
+				4D778EB61F3FD13E00253D73 /* Controllers */,
+			);
+			path = MyCenterModule;
+			sourceTree = "<group>";
+		};
+		4D778EB61F3FD13E00253D73 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D778EBA1F3FD19C00253D73 /* MyCenterViewController.h */,
+				4D778EBB1F3FD19C00253D73 /* MyCenterViewController.m */,
+				4D778EBC1F3FD19C00253D73 /* MyCenterViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D778EB71F3FD14E00253D73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D38E35E1F490DB400E938DF /* UserHeadPortraitView.h */,
+				4D38E35F1F490DB400E938DF /* UserHeadPortraitView.m */,
+				4D38E3611F490DED00E938DF /* UserHeadPortraitView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D778EB81F3FD15E00253D73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D778EB91F3FD17100253D73 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D778EC21F3FD26100253D73 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				4D778EC31F3FD2FB00253D73 /* SmartHome_Prefix.pch */,
+				4D778EC41F3FD3EA00253D73 /* ClassesHeader.h */,
+				4DF338D71F42A76500F05B28 /* RequstUrlHeader.h */,
+				4D38E35D1F4902E200E938DF /* CommonParamaHeader.h */,
+			);
+			name = Config;
+			path = Classes/Config;
+			sourceTree = "<group>";
+		};
+		4D778EC51F3FD70400253D73 /* NetRequst */ = {
+			isa = PBXGroup;
+			children = (
+				4D778EC61F3FD7C400253D73 /* SH_AFNetClientTool.h */,
+				4D778EC71F3FD7C400253D73 /* SH_AFNetClientTool.m */,
+			);
+			path = NetRequst;
+			sourceTree = "<group>";
+		};
+		8F6F8EC3E567555BE9E4129F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F38125390698DDCA11E7EC4 /* libPods-SmartHomeProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F30104A5A5375D9E0599476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				483D71648CA4ED64C47A88C4 /* Pods-SmartHomeProject.debug.xcconfig */,
+				444538C6E654CD767A874839 /* Pods-SmartHomeProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D20668B1F3978170092352B /* SmartHomeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2066B91F3978170092352B /* Build configuration list for PBXNativeTarget "SmartHomeProject" */;
+			buildPhases = (
+				45B02BDEC00D17BB8E454CE1 /* [CP] Check Pods Manifest.lock */,
+				4D2066881F3978170092352B /* Sources */,
+				4D2066891F3978170092352B /* Frameworks */,
+				4D20668A1F3978170092352B /* Resources */,
+				606B840DC68D907ACF28FABF /* [CP] Embed Pods Frameworks */,
+				F4A50DE7985408C7AF725A57 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHomeProject;
+			productName = SmartHomeProject;
+			productReference = 4D20668C1F3978170092352B /* SmartHomeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D2066A41F3978170092352B /* SmartHomeProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2066BC1F3978170092352B /* Build configuration list for PBXNativeTarget "SmartHomeProjectTests" */;
+			buildPhases = (
+				4D2066A11F3978170092352B /* Sources */,
+				4D2066A21F3978170092352B /* Frameworks */,
+				4D2066A31F3978170092352B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D2066A71F3978170092352B /* PBXTargetDependency */,
+			);
+			name = SmartHomeProjectTests;
+			productName = SmartHomeProjectTests;
+			productReference = 4D2066A51F3978170092352B /* SmartHomeProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D2066AF1F3978170092352B /* SmartHomeProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2066BF1F3978170092352B /* Build configuration list for PBXNativeTarget "SmartHomeProjectUITests" */;
+			buildPhases = (
+				4D2066AC1F3978170092352B /* Sources */,
+				4D2066AD1F3978170092352B /* Frameworks */,
+				4D2066AE1F3978170092352B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D2066B21F3978170092352B /* PBXTargetDependency */,
+			);
+			name = SmartHomeProjectUITests;
+			productName = SmartHomeProjectUITests;
+			productReference = 4D2066B01F3978170092352B /* SmartHomeProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D2066841F3978170092352B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					4D20668B1F3978170092352B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					4D2066A41F3978170092352B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D20668B1F3978170092352B;
+					};
+					4D2066AF1F3978170092352B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D20668B1F3978170092352B;
+					};
+				};
+			};
+			buildConfigurationList = 4D2066871F3978170092352B /* Build configuration list for PBXProject "SmartHomeProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D2066831F3978170092352B;
+			productRefGroup = 4D20668D1F3978170092352B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D20668B1F3978170092352B /* SmartHomeProject */,
+				4D2066A41F3978170092352B /* SmartHomeProjectTests */,
+				4D2066AF1F3978170092352B /* SmartHomeProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D20668A1F3978170092352B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D20669F1F3978170092352B /* LaunchScreen.storyboard in Resources */,
+				4D778EA71F3FB83500253D73 /* HomePageViewController.xib in Resources */,
+				4D38E3621F490DED00E938DF /* UserHeadPortraitView.xib in Resources */,
+				4D06B4021F46BFAC0024FD35 /* UserRegisterController.xib in Resources */,
+				4D778EBE1F3FD19C00253D73 /* MyCenterViewController.xib in Resources */,
+				4DF338D61F42A05700F05B28 /* test_leyou.cer in Resources */,
+				4D20669C1F3978170092352B /* Assets.xcassets in Resources */,
+				4D778EA91F3FBB4800253D73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2066A31F3978170092352B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2066AE1F3978170092352B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45B02BDEC00D17BB8E454CE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartHomeProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606B840DC68D907ACF28FABF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartHomeProject/Pods-SmartHomeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A50DE7985408C7AF725A57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartHomeProject/Pods-SmartHomeProject-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartHomeProject/Pods-SmartHomeProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D2066881F3978170092352B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D778E9D1F3FB70D00253D73 /* AppDelegate.m in Sources */,
+				4D778EBD1F3FD19C00253D73 /* MyCenterViewController.m in Sources */,
+				4D778EC81F3FD7C400253D73 /* SH_AFNetClientTool.m in Sources */,
+				4D06B3FD1F46AF530024FD35 /* UserRegisterModel.m in Sources */,
+				4D778EB11F3FBE1C00253D73 /* TabBarController.m in Sources */,
+				4D2066911F3978170092352B /* main.m in Sources */,
+				4D778EA61F3FB83500253D73 /* HomePageViewController.m in Sources */,
+				4D06B3FA1F46AEDF0024FD35 /* UserRegisterViewModel.m in Sources */,
+				4D06B4011F46BFAC0024FD35 /* UserRegisterController.m in Sources */,
+				4D778EC11F3FD1C700253D73 /* BaseViewController.m in Sources */,
+				4D38E3601F490DB400E938DF /* UserHeadPortraitView.m in Sources */,
+				4D778EB41F3FC0CA00253D73 /* BaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2066A11F3978170092352B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2066AA1F3978170092352B /* SmartHomeProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2066AC1F3978170092352B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2066B51F3978170092352B /* SmartHomeProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D2066A71F3978170092352B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D20668B1F3978170092352B /* SmartHomeProject */;
+			targetProxy = 4D2066A61F3978170092352B /* PBXContainerItemProxy */;
+		};
+		4D2066B21F3978170092352B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D20668B1F3978170092352B /* SmartHomeProject */;
+			targetProxy = 4D2066B11F3978170092352B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D20669D1F3978170092352B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D20669E1F3978170092352B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D2066B71F3978170092352B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D2066B81F3978170092352B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D2066BA1F3978170092352B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483D71648CA4ED64C47A88C4 /* Pods-SmartHomeProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SmartHomeProject/Classes/Config/SmartHome_Prefix.pch";
+				INFOPLIST_FILE = SmartHomeProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangtetravel.SmartHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D2066BB1F3978170092352B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 444538C6E654CD767A874839 /* Pods-SmartHomeProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SmartHomeProject/Classes/Config/SmartHome_Prefix.pch";
+				INFOPLIST_FILE = SmartHomeProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangtetravel.SmartHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D2066BD1F3978170092352B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartHomeProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangtetravel.SmartHomeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHomeProject.app/SmartHomeProject";
+			};
+			name = Debug;
+		};
+		4D2066BE1F3978170092352B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartHomeProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangtetravel.SmartHomeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartHomeProject.app/SmartHomeProject";
+			};
+			name = Release;
+		};
+		4D2066C01F3978170092352B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartHomeProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangtetravel.SmartHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartHomeProject;
+			};
+			name = Debug;
+		};
+		4D2066C11F3978170092352B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartHomeProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fangtetravel.SmartHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartHomeProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D2066871F3978170092352B /* Build configuration list for PBXProject "SmartHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2066B71F3978170092352B /* Debug */,
+				4D2066B81F3978170092352B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2066B91F3978170092352B /* Build configuration list for PBXNativeTarget "SmartHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2066BA1F3978170092352B /* Debug */,
+				4D2066BB1F3978170092352B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2066BC1F3978170092352B /* Build configuration list for PBXNativeTarget "SmartHomeProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2066BD1F3978170092352B /* Debug */,
+				4D2066BE1F3978170092352B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2066BF1F3978170092352B /* Build configuration list for PBXNativeTarget "SmartHomeProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2066C01F3978170092352B /* Debug */,
+				4D2066C11F3978170092352B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D2066841F3978170092352B /* Project object */;
+}
